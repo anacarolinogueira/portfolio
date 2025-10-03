@@ -1,0 +1,163 @@
+@import url(Ubuntu-Regular.ttf);
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    margin: 0;
+}
+
+.caixa {
+    text-decoration: none;
+}
+
+.coisas {
+    margin: 16px 0px 0px 326px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    text-decoration: none;
+    color: black;
+    
+}
+.contatos{
+    border-color: transparent;
+    background-color:transparent;
+    font-size: large;
+
+
+    
+}
+.desenvolvedor {
+    width: 300px;
+   
+    margin: 166px 0px 0px 326px 
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.tudo {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 116px;
+
+}
+
+.foto {
+    float: left;
+    background-color: #E2CDFF;
+    width: 405px;
+    height: 486px;
+    opacity: 0.7;
+
+}
+
+.botoes {
+    width: 71px;
+    height: 33px;
+    border-color: transparent;
+    background-color: #AC75F8;
+    margin: 15px 15px 15px;
+    border-radius: 10%;
+  
+}
+.botoes_java{
+    width: 126px;
+    height: 33px;
+    border-color: transparent;
+    background-color: #AC75F8;
+    margin: 15px 15px 15px;
+    border-radius: 10%;
+    
+}
+
+.sessao {
+    margin: 0px 0px 88px 326px;
+    
+}
+
+.bloco1 {
+    width: 492px;
+    background-color: #C59CFF;
+    height: 133px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+       font-weight: 700;
+    
+
+}
+
+.bloco2 {
+       font-weight: 700;
+    background-color: #C59CFF;
+    width: 492px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.escrita1{
+   margin: 29px 113px 81px 41px;
+}
+.escrita2{
+    
+     padding: 11px 0px 12px 34px;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+}
+/*dia */
+body.dia{
+    background-color: azure;
+}
+.dia .desenvolvedor{
+    color: #151515;
+}
+.dia .dominio_nome{
+    color: #151515;
+}
+.dia .baixo{
+    border-top: #151515;
+    color: #151515;
+
+}
+/*noite*/
+body.noite {
+    background-image: url(https://i.ytimg.com/vi/MaXvuVWIQJs/maxresdefault.jpg);
+    
+
+}
+.noite .dominio_nome{
+    color: #FFFFfF ;
+}
+.noite .desenvolvedor{
+    
+    color: #FFFFfF;
+    
+}
+.noite .bloco1{
+    box-shadow: 0 4px 8px rgba(247, 247, 247, 0.76);
+    background-color: #6F598F;
+
+}
+.noite .bloco2{
+    background-color: #6F598F;
+    box-shadow: 0 4px 8px rgba(247, 247, 247, 0.76);
+    
+}
+.noite .baixo{
+    border-top: #FFFFfF;
+    color: aliceblue;
+}
+.noite .botoes{
+    background-color: #885DC2;
+}
+.noite .botoes_java{
+    background-color: #885DC2;
+}
+.noite .foto{
+    background-color: #B5A4CE;
+    opacity: 0.8;
+}
